@@ -1,25 +1,22 @@
 # 🧰 DevKit
 
-Free, private toolbox for developers, with an animated space background. It runs entirely in your browser, and nothing is uploaded anywhere.
+Free, private toolbox for developers. It runs entirely in your browser, and nothing is uploaded anywhere.
+
+**Live site:** https://ruihe1.github.io/Devkit/
 
 ## Tools
-JSON formatter · Base64 · URL encode/decode · SHA hash generator · UUID generator · Regex tester · Timestamp converter · JWT decoder · Text diff · Password generator
+JSON formatter, Base64, URL encode/decode, SHA hashes, UUID generator, Regex tester, Timestamp converter, JWT decoder, Text diff, Password generator.
 
-## Use it
-Open `index.html` in any browser, or host it free on GitHub Pages (Settings → Pages → branch `main`, folder `/ (root)`).
+## Features
+- Light and dark mode
+- No libraries, no tracking, one HTML file
+- Scene button hides the tools so you can watch the animated galaxy
 
-- Light and dark mode switch (top right)
-- 🎬 Scene button hides the tools so you can watch the animation
-
-## Python version
-`app.py` is an alternative version built with Streamlit:
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
+## Run it
+Open `index.html` in any browser, or host it free on GitHub Pages.
 
 ## Contributing
-New tools are easy to add: write a tool object in the `TOOLS` array in `index.html`. See [CONTRIBUTING.md](CONTRIBUTING.md).
+Ideas and pull requests are welcome. Open an issue to suggest a tool.
 
 ## Roadmap
 - [ ] YAML/TOML/JSON converter
